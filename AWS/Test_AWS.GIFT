@@ -1,0 +1,104 @@
+// Formato del cuestionario:
+//
+// - A continuación de "$CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distribuidos/" 
+//   poner el nombre del trabajo y apellidos de autor o autores. Ejemplo: GIT-GomezBachiller
+//
+// - Debe tener 10 preguntas.
+//
+// - La sintaxis de las preguntas es 
+//	enunciado de la pregunta{
+//	~%-50%respuesta incorrecta 1.
+//	~%-50%respuesta incorrecta 2.
+//	=respuesta correcta.
+//	~%-50%respuesta incorrecta 3.
+//	}	
+//
+// - Todas las preguntas deben tener 4 opciones y solo una correcta.
+//	Las incorrectas precedidas por "~%-50%"
+//	La única correcta precedida de "="
+//
+// - Evitar poner la respuesta correcta en la misma posición.
+//
+// - A continuación puedes ver como ejemplo el cuestionario de un trabajo sobre GIT presentado por ejemplo Pedro Perez Sanchez
+
+$CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distribuidos/GIT-PerezSanchez
+
+// 1
+¿A qué se denomina Control de Versiones?{
+~%-50%A un software que permite hacer copias de respaldo (backups).
+=Es un aplicación o sistema que permite gestionar los cambios en documentos, programas o en cualquier otro repositorio de información.
+~%-50%Un sistema informático que alerta si una aplicación no está actualizada a su última versión.
+~%-50%Un demonio del sistema operativo que asegura que una aplicación usará la versión de la librería que necesita para funcionar.
+}
+
+// 2
+Que tipo de Arquitectura utiliza Git para almacenar el código:{
+~%-50%Local
+~%-50%Centralizada
+=Distribuida
+~%-50%Todas son correctas.
+}
+
+// 3
+¿Cuál de las siguientes secciones es un componente de Git?{
+~%-50%Espacio de trabajo (working directory).
+~%-50%Área de preparación (staging area).
+~%-50%Directorio git o repositorio (repository).
+=Todas son correctas.
+}
+
+// 4
+En Git, para separar el desarrollo estable de un proyecto del desarrollo de nuevas funcionalidades, necesitamos crear un o una:{
+=Rama o branch.
+~%-50%Etiqueta o tag.
+~%-50%Bifurcación o fork.
+~%-50%Ninguna es correcta.
+}
+
+// 5
+¿Cómo se denomina en Git el acto de unir los cambios de una rama con otra?{
+=Fusión o merging.
+~%-50%Confirmación o commit.
+~%-50%Despliegue o checkout.
+~%-50%Ninguna es correcta.
+}
+
+// 6
+En Git, si queremos crear referencias a puntos concretos de la historia del proyecto, por ejemplo para numerar versiones, necesitamos crear un o una:{
+~%-50%Rama o branch.
+=Etiqueta o tag.
+~%-50%Bifurcación o fork.
+~%-50%Ninguna es correcta.
+}
+
+// 7
+¿Qué es Github?{
+~%-50%Es un cliente gráfico para administrar un repositorio Git que funciona bajo Gnome.
+=Una forja para proyectos controlados con Git.
+~%-50%Es un parámetro de git que se usa para fusionar ramas.
+~%-50%Es un dispositivo que permite centralizar el cableado de una red .
+}
+
+// 8
+Si vemos un proyecto en Github con el cual queremos colaborar necesitaremos hacer primero un o una:{
+~%-50%Rama o branch.
+~%-50%Etiqueta o tag.
+=Bifurcación o fork.
+~%-50%Ninguna es correcta.
+}
+
+// 9
+¿Cómo se llama el lenguaje de marcado más usado en Github para escribir documentación en un proyecto?{
+~%-50%XML
+~%-50%YAML
+~%-50%OpenDocument
+=Markdown
+}
+
+// 10
+Si queremos mandar un parche a un proyecto de Software Libre qué es lo que no debemos hacer:{
+~%-50%Abrir una nueva incidencia sin comprobar si ya hay una abierta hablando de lo mismo.
+~%-50%Escribir el código sin comprobar el estilo usado para escribir los nombres de las funciones, clases, etc.
+~%-50%Mandar el código sin informar de qué error se quiere corregir y qué hace el código.
+=Todas las anteriores son malas prácticas y debemos evitarlas.
+}
