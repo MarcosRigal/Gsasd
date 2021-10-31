@@ -1,104 +1,81 @@
-// Formato del cuestionario:
-//
-// - A continuación de "$CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distribuidos/" 
-//   poner el nombre del trabajo y apellidos de autor o autores. Ejemplo: GIT-GomezBachiller
-//
-// - Debe tener 10 preguntas.
-//
-// - La sintaxis de las preguntas es 
-//	enunciado de la pregunta{
-//	~%-50%respuesta incorrecta 1.
-//	~%-50%respuesta incorrecta 2.
-//	=respuesta correcta.
-//	~%-50%respuesta incorrecta 3.
-//	}	
-//
-// - Todas las preguntas deben tener 4 opciones y solo una correcta.
-//	Las incorrectas precedidas por "~%-50%"
-//	La única correcta precedida de "="
-//
-// - Evitar poner la respuesta correcta en la misma posición.
-//
-// - A continuación puedes ver como ejemplo el cuestionario de un trabajo sobre GIT presentado por ejemplo Pedro Perez Sanchez
-
-$CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distribuidos/GIT-PerezSanchez
+$CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distribuidos/AWS-RiveraGavilan
 
 // 1
-¿A qué se denomina Control de Versiones?{
-~%-50%A un software que permite hacer copias de respaldo (backups).
-=Es un aplicación o sistema que permite gestionar los cambios en documentos, programas o en cualquier otro repositorio de información.
-~%-50%Un sistema informático que alerta si una aplicación no está actualizada a su última versión.
-~%-50%Un demonio del sistema operativo que asegura que una aplicación usará la versión de la librería que necesita para funcionar.
+¿Cómo es el diseño una Región de AWS?{
+~%-50%Región->Centros de disponibilidad->Zonas de datos.
+=Región-> Zonas de disponibilidad -> Centros de datos
+~%-50%Región->Zonas de datos->Centros de disponibilidad.
+~%-50%Región->Centros de datos->Zonas de disponibilidad.
 }
 
 // 2
-Que tipo de Arquitectura utiliza Git para almacenar el código:{
-~%-50%Local
-~%-50%Centralizada
-=Distribuida
-~%-50%Todas son correctas.
+¿Cuales son las principales opciones de computación?{
+~%-50%Amazon Basic, Amazon Plus, Amazon Premium.
+~%-50%Amazon AZ, AWS S3, Amazon Bucket.
+~%-50%Amazon Silver, Amazon Gold, Amazon Platinum
+=Amazon EC2, Amazon ECS, AWS Lambda
 }
 
 // 3
-¿Cuál de las siguientes secciones es un componente de Git?{
-~%-50%Espacio de trabajo (working directory).
-~%-50%Área de preparación (staging area).
-~%-50%Directorio git o repositorio (repository).
-=Todas son correctas.
+¿Qué representan nombres como c5n.xlarge en las instancias EC2? {
+=Instancia | Generación | Atributo | Tamaño
+~%-50%Instancia | Tamaño | Atributo | Generación
+~%-50%Instancia | Generación | Tamaño | Atributo
+~%-50%Instancia | Generación | Atributo | Tamaño
 }
 
 // 4
-En Git, para separar el desarrollo estable de un proyecto del desarrollo de nuevas funcionalidades, necesitamos crear un o una:{
-=Rama o branch.
-~%-50%Etiqueta o tag.
-~%-50%Bifurcación o fork.
-~%-50%Ninguna es correcta.
+¿Cuál de los siguientes NO es un Hipervisor utilizado en AWS?{
+~%-50%Nitro
+~%-50%Bare metal
+=Hyper-V
+~%-50%Xen
 }
 
 // 5
-¿Cómo se denomina en Git el acto de unir los cambios de una rama con otra?{
-=Fusión o merging.
-~%-50%Confirmación o commit.
-~%-50%Despliegue o checkout.
-~%-50%Ninguna es correcta.
+¿Cuales son los dos tipos de Elastic Load Balancing de AWS?{
+=Network Load Balancer (NLB) & Application Load Balancer (ALB).
+~%-50%Service Load Balancer (SLB) & Application Load Balancer (ALB).
+~%-50%Network Load Balancer (NLB) & Traffic Load Balancer (TLB).
+~%-50%Service Load Balancer (SLB) & Traffic Load Balancer (TLB).
 }
 
 // 6
-En Git, si queremos crear referencias a puntos concretos de la historia del proyecto, por ejemplo para numerar versiones, necesitamos crear un o una:{
-~%-50%Rama o branch.
-=Etiqueta o tag.
-~%-50%Bifurcación o fork.
-~%-50%Ninguna es correcta.
+¿Cómo se llama el servicio que permite resolver nombres de dominio a una dirección IP?{
+~%-50%Amazon Route 66.
+=Amazon Route 53.
+~%-50%Amazon Route 95.
+~%-50%Amazon Route 55.
 }
 
 // 7
-¿Qué es Github?{
-~%-50%Es un cliente gráfico para administrar un repositorio Git que funciona bajo Gnome.
-=Una forja para proyectos controlados con Git.
-~%-50%Es un parámetro de git que se usa para fusionar ramas.
-~%-50%Es un dispositivo que permite centralizar el cableado de una red .
+¿Cuál de los siguientes tipos de almacenamiento NO existe en AWS?{
+~%-50%Block Storage.
+~%-50%File Storage.
+~%-50%Object Storage.
+=Type Storage.
 }
 
 // 8
-Si vemos un proyecto en Github con el cual queremos colaborar necesitaremos hacer primero un o una:{
-~%-50%Rama o branch.
-~%-50%Etiqueta o tag.
-=Bifurcación o fork.
-~%-50%Ninguna es correcta.
+¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que accederá diariamente?{
+~%-50%Glacier
+~%-50%S3-IA
+=S3
+~%-50%Simply-Storage (SS)
 }
 
 // 9
-¿Cómo se llama el lenguaje de marcado más usado en Github para escribir documentación en un proyecto?{
-~%-50%XML
-~%-50%YAML
-~%-50%OpenDocument
-=Markdown
+¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que accederá de vez en cuando?{
+=S3-IA
+~%-50%Glacier
+~%-50%Simply-Storage (SS)
+~%-50%S3
 }
 
 // 10
-Si queremos mandar un parche a un proyecto de Software Libre qué es lo que no debemos hacer:{
-~%-50%Abrir una nueva incidencia sin comprobar si ya hay una abierta hablando de lo mismo.
-~%-50%Escribir el código sin comprobar el estilo usado para escribir los nombres de las funciones, clases, etc.
-~%-50%Mandar el código sin informar de qué error se quiere corregir y qué hace el código.
-=Todas las anteriores son malas prácticas y debemos evitarlas.
+¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que no accederá casi nunca?{
+~%-50%S3
+~%-50%Simply-Storage (SS)
+~%-50%S3-IA
+=Glacier
 }
