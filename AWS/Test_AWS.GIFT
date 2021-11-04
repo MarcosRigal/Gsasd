@@ -17,6 +17,22 @@ $CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distr
 }
 
 // 3
+¿Qué significa Amazon EC2?{
+=Amazon Elastic Compute Cloud.
+~%-50%Amazon Enterprise Compute Cloud.
+~%-50%Amazon Elastic Cloud Computing.
+~%-50%Amazon Enterprise Cloud Computing.
+}
+
+// 4
+¿A qué equivale una instancia c4.8xlarge?{
+~%-50%2 instancias - c4.4xlarge.
+~%-50%4 instancias - c4.2xlarge.
+~%-50%8 instancias - c4.xlarge.
+=Todas son correctas.
+}
+
+// 5
 ¿Qué representan nombres como c5n.xlarge en las instancias EC2? {
 =Instancia | Generación | Atributo | Tamaño
 ~%-50%Instancia | Tamaño | Atributo | Generación
@@ -24,58 +40,42 @@ $CATEGORY: $course$/Valor por defecto para Gestion de Archivos y Servicios Distr
 ~%-50%Instancia | Generación | Atributo | Tamaño
 }
 
-// 4
-¿Cuál de los siguientes NO es un Hipervisor utilizado en AWS?{
-~%-50%Nitro
-~%-50%Bare metal
-=Hyper-V
-~%-50%Xen
-}
-
-// 5
-¿Cuales son los dos tipos de Elastic Load Balancing de AWS?{
-=Network Load Balancer (NLB) & Application Load Balancer (ALB).
-~%-50%Service Load Balancer (SLB) & Application Load Balancer (ALB).
-~%-50%Network Load Balancer (NLB) & Traffic Load Balancer (TLB).
-~%-50%Service Load Balancer (SLB) & Traffic Load Balancer (TLB).
-}
-
 // 6
-¿Cómo se llama el servicio que permite resolver nombres de dominio a una dirección IP?{
-~%-50%Amazon Route 66.
-=Amazon Route 53.
-~%-50%Amazon Route 95.
-~%-50%Amazon Route 55.
+¿Qué significa AMI?{
+~%-50%Amazon Machine Interface.
+=Amazon Machine Image.
+~%-50%Amazon Massive Input.
+~%-50%Amazon Matching Intelligence.
 }
 
 // 7
-¿Cuál de los siguientes tipos de almacenamiento NO existe en AWS?{
-~%-50%Block Storage.
-~%-50%File Storage.
-~%-50%Object Storage.
-=Type Storage.
+¿Qué tipo de instancia utilizaría para una carga de trabajo conocida y estable en el tiempo?{
+~%-50%Instancias Spot.
+~%-50%Instancias Reservadas
+=Instancias de Planes de Ahorro.
+~%-50%Instancias Bajo Demanda
 }
 
 // 8
-¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que accederá diariamente?{
-~%-50%Glacier
-~%-50%S3-IA
-=S3
-~%-50%Simply-Storage (SS)
+¿Qué tipo de instancia utilizaría para una carga extra de trabajo puntual pero crítica?{
+=Instancias Bajo Demanda
+~%-50%Instancias Reservadas
+~%-50%Instancias de Planes de Ahorro.
+~%-50%Instancias Spot.
 }
 
 // 9
-¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que accederá de vez en cuando?{
-=S3-IA
-~%-50%Glacier
-~%-50%Simply-Storage (SS)
-~%-50%S3
+¿Qué tipo de instancia utilizaría para una carga de trabajo puntual de un sistema tolerante a fallos?{
+~%-50%Instancias Reservadas
+~%-50%Instancias de Planes de Ahorro
+~%-50%Instancias Bajo Demanda
+=Instancias Spot
 }
 
 // 10
-¿Qué tipo de almacenamiento utilizaría para almacenar datos a los que no accederá casi nunca?{
-~%-50%S3
-~%-50%Simply-Storage (SS)
-~%-50%S3-IA
-=Glacier
+¿Cómo se llama el Hipervisor utilizado por AWS?{
+~%-50%Hyper-V
+~%-50%Bare metal
+=Nitro
+~%-50%Xen
 }
