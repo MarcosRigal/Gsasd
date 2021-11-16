@@ -37,7 +37,10 @@ int *division_1_svc(operandos *argp, struct svc_req *rqstp)
 {
 	static int result;
 
-	result = argp->a / argp->b;
+	if (argp->b != 0)
+	{
+		result = argp->a / argp->b;
+	}
 
 	return &result;
 }
