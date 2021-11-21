@@ -9,6 +9,18 @@
 
 int main(int argc, char *argv[])
 {
+	char *host;
+
+	//Comprobamos que se haya llamado al programa correctamente.
+
+	if (argc < 2)
+	{
+		printf("usage: %s server_host\n", argv[0]);
+		exit(1);
+	}
+	host = argv[1];
+
+	//Solicitamos al usuario que operación desea realizar:
 
 	int operando1, operando2;
 
@@ -34,21 +46,42 @@ int main(int argc, char *argv[])
 		scanf("%d", &operando2);
 	}
 
-	int result = 0;
+	CLIENT *clnt;
+
+#ifndef DEBUG
+	clnt = clnt_create(host, CALCULADORA_PROG, CALCULADORA_VERS, "udp");
+	if (clnt == NULL)
+	{
+		clnt_pcreateerror(host);
+		exit(1);
+	}
+#endif /* DEBUG */
+
+	int *result;
+	int total = 0;
 	operandos operandos = {operando1, operando2};
 
 	clock_t begin = clock();
 
-	/* here, do your time-consuming job */
-
 	for (int i = 0; i < 100000; i++)
 	{
-		result = result + suma(&operandos);
+
+		result = suma_1(&operandos, clnt);
+		if (result == (int *)NULL)
+		{
+			clnt_perror(clnt, "call failed");
+		}
+		total += *result;
 	}
+
 	clock_t end = clock();
 	double time_spent = (double)(end - begin) / CLOCKS_PER_SEC;
 
-	printf("El resultado de la suma es: %d\n", result);
+	printf("El resultado de la suma es: %d\n", total);
 	printf("Ha tardado: %f segundos\n", time_spent);
+
+#ifndef DEBUG
+	clnt_destroy(clnt);
+#endif /* DEBUG */
 	exit(0);
 }
