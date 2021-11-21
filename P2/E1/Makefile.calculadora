@@ -26,7 +26,7 @@ RPCGENFLAGS =
 
 # Targets 
 
-all : $(CLIENT) $(SERVER)
+all : $(CLIENT) $(SERVER) clean
 
 $(TARGETS) : $(SOURCES.x) 
 	rpcgen $(RPCGENFLAGS) $(SOURCES.x)
@@ -42,5 +42,6 @@ $(SERVER) : $(OBJECTS_SVC)
 	$(LINK.c) -o $(SERVER) $(OBJECTS_SVC) $(LDLIBS)
 
  clean:
-	 $(RM) core $(TARGETS) $(OBJECTS_CLNT) $(OBJECTS_SVC) $(CLIENT) $(SERVER)
+	rm -f *.o
+
 
