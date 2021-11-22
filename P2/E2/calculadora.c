@@ -4,8 +4,18 @@
  * as a guideline for developing your own functions.
  */
 
-#include "calculadora.h"
 #include <time.h>
+#include <stdio.h>
+#include <stdlib.h>
+
+struct operandos
+{
+	int a;
+	int b;
+};
+typedef struct operandos operandos;
+
+int suma(operandos *operandos) { return operandos->a + operandos->b; }
 
 int main(int argc, char *argv[])
 {
