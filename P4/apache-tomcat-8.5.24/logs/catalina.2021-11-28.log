@@ -1,0 +1,129 @@
+28-Nov-2021 19:37:04.969 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Nov-2021 19:37:04.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_301/jre
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2021 19:37:04.974 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:37:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:37:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/marcos/Desktop/apache-tomcat-8.5.24/conf/logging.properties
+28-Nov-2021 19:37:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2021 19:37:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2021 19:37:04.975 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2021 19:37:04.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2021 19:37:04.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:37:04.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:37:04.976 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/marcos/Desktop/apache-tomcat-8.5.24/temp
+28-Nov-2021 19:37:04.976 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Nov-2021 19:37:05.258 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 19:37:05.295 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 19:37:05.308 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 19:37:05.310 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 19:37:05.318 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 1221 ms
+28-Nov-2021 19:37:05.390 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2021 19:37:05.392 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Nov-2021 19:37:05.460 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war]
+28-Nov-2021 19:37:13.816 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2021 19:37:20.111 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war] has finished in [14,650] ms
+28-Nov-2021 19:37:20.120 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager]
+28-Nov-2021 19:37:20.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager] has finished in [138] ms
+28-Nov-2021 19:37:20.258 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples]
+28-Nov-2021 19:37:20.834 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples] has finished in [575] ms
+28-Nov-2021 19:37:20.841 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager]
+28-Nov-2021 19:37:20.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager] has finished in [75] ms
+28-Nov-2021 19:37:20.916 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs]
+28-Nov-2021 19:37:20.954 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs] has finished in [38] ms
+28-Nov-2021 19:37:20.955 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT]
+28-Nov-2021 19:37:20.991 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT] has finished in [36] ms
+28-Nov-2021 19:37:21.024 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 19:37:21.062 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 19:37:21.103 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 15784 ms
+28-Nov-2021 19:56:05.963 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Nov-2021 19:56:05.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Nov-2021 19:56:05.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Nov-2021 19:56:05.970 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_301/jre
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:56:05.971 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/marcos/Desktop/apache-tomcat-8.5.24/conf/logging.properties
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2021 19:56:05.972 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:56:05.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 19:56:05.973 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/marcos/Desktop/apache-tomcat-8.5.24/temp
+28-Nov-2021 19:56:05.973 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Nov-2021 19:56:06.247 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 19:56:06.266 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 19:56:06.288 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 19:56:06.293 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 19:56:06.295 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 997 ms
+28-Nov-2021 19:56:06.385 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2021 19:56:06.385 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Nov-2021 19:56:06.432 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war]
+28-Nov-2021 19:56:11.589 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2021 19:56:14.244 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war] has finished in [7,809] ms
+28-Nov-2021 19:56:14.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager]
+28-Nov-2021 19:56:14.339 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager] has finished in [93] ms
+28-Nov-2021 19:56:14.340 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples]
+28-Nov-2021 19:56:14.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples] has finished in [203] ms
+28-Nov-2021 19:56:14.542 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager]
+28-Nov-2021 19:56:14.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager] has finished in [20] ms
+28-Nov-2021 19:56:14.562 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs]
+28-Nov-2021 19:56:14.579 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs] has finished in [17] ms
+28-Nov-2021 19:56:14.580 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT]
+28-Nov-2021 19:56:14.599 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT] has finished in [20] ms
+28-Nov-2021 19:56:14.610 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 19:56:14.633 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 19:56:14.648 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 8353 ms
+28-Nov-2021 20:01:38.924 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server version:        Apache Tomcat/8.5.24
+28-Nov-2021 20:01:38.926 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server built:          Nov 27 2017 13:05:30 UTC
+28-Nov-2021 20:01:38.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Server number:         8.5.24.0
+28-Nov-2021 20:01:38.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Linux
+28-Nov-2021 20:01:38.927 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Version:            5.11.0-40-generic
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Architecture:          amd64
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /usr/java/jdk1.8.0_301/jre
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Version:           1.8.0_301-b09
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log JVM Vendor:            Oracle Corporation
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 20:01:38.928 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 20:01:38.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/home/marcos/Desktop/apache-tomcat-8.5.24/conf/logging.properties
+28-Nov-2021 20:01:38.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+28-Nov-2021 20:01:38.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+28-Nov-2021 20:01:38.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.protocol.handler.pkgs=org.apache.catalina.webresources
+28-Nov-2021 20:01:38.929 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dignore.endorsed.dirs=
+28-Nov-2021 20:01:38.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 20:01:38.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/home/marcos/Desktop/apache-tomcat-8.5.24
+28-Nov-2021 20:01:38.930 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/home/marcos/Desktop/apache-tomcat-8.5.24/temp
+28-Nov-2021 20:01:38.930 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/usr/java/packages/lib/amd64:/usr/lib64:/lib64:/lib:/usr/lib]
+28-Nov-2021 20:01:39.137 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 20:01:39.154 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 20:01:39.164 INFO [main] org.apache.coyote.AbstractProtocol.init Initializing ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 20:01:39.166 INFO [main] org.apache.tomcat.util.net.NioSelectorPool.getSharedSelector Using a shared selector for servlet write/read
+28-Nov-2021 20:01:39.167 INFO [main] org.apache.catalina.startup.Catalina.load Initialization processed in 832 ms
+28-Nov-2021 20:01:39.218 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+28-Nov-2021 20:01:39.218 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet Engine: Apache Tomcat/8.5.24
+28-Nov-2021 20:01:39.246 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war]
+28-Nov-2021 20:01:43.979 INFO [localhost-startStop-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+28-Nov-2021 20:01:47.644 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/axis2.war] has finished in [8,397] ms
+28-Nov-2021 20:01:47.645 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager]
+28-Nov-2021 20:01:47.697 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/host-manager] has finished in [52] ms
+28-Nov-2021 20:01:47.698 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples]
+28-Nov-2021 20:01:48.112 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/examples] has finished in [415] ms
+28-Nov-2021 20:01:48.114 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager]
+28-Nov-2021 20:01:48.154 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/manager] has finished in [40] ms
+28-Nov-2021 20:01:48.155 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs]
+28-Nov-2021 20:01:48.188 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/docs] has finished in [33] ms
+28-Nov-2021 20:01:48.189 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deploying web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT]
+28-Nov-2021 20:01:48.223 INFO [localhost-startStop-1] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/home/marcos/Desktop/apache-tomcat-8.5.24/webapps/ROOT] has finished in [33] ms
+28-Nov-2021 20:01:48.240 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+28-Nov-2021 20:01:48.261 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["ajp-nio-8009"]
+28-Nov-2021 20:01:48.265 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in 9097 ms

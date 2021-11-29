@@ -1,0 +1,15 @@
+<service>
+    <parameter name="ServiceClass" locked="false">service.Calculadora</parameter>
+    <operation name="suma">
+        <messageReciver class="org.apache.axis2.rpc.receivers.RPCMessageReciver" />
+    </operation>
+    <operation name="resta">
+        <messageReciver class="org.apache.axis2.rpc.receivers.RPCMessageReciver" />
+    </operation>
+    <operation name="multiplicacion">
+        <messageReciver class="org.apache.axis2.rpc.receivers.RPCMessageReciver" />
+    </operation>
+    <operation name="division">
+        <messageReciver class="org.apache.axis2.rpc.receivers.RPCMessageReciver" />
+    </operation>
+</service>
