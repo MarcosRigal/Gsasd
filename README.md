@@ -1,5 +1,5 @@
 <div align="center">
-    <img width="100%" src="https://ih1.redbubble.net/image.1066412296.0216/pp,840x830-pad,1000x1000,f8f8f8.u1.jpg" alt="FOTO">
+    <img width="100%" src="https://dev-res.thumbr.io/libraries/94/04/23/lib/1522927357993_3.jpg?size=854x493s&ext=jpg" alt="FOTO">
 </div>
 
 # Instructions:
